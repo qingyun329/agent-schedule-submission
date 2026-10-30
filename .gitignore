@@ -4,4 +4,4 @@ __pycache__/
 .pytest_cache/
 .credentials/
 .idea/
-.vscode/
+.vscode/data/drafts.json

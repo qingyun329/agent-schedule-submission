@@ -1,0 +1,28 @@
+[
+  {
+    "rule_id": "rule_001",
+    "name": "绝对化用语",
+    "type": "keyword_any",
+    "fields": [
+      "title",
+      "content"
+    ],
+    "keywords": [
+      "100%",
+      "最好",
+      "第一",
+      "治愈"
+    ],
+    "risk_level": "block",
+    "reason": "标题或文案包含绝对化用语：{matched}"
+  },
+  {
+    "rule_id": "rule_002",
+    "name": "医疗健康类人工确认",
+    "type": "field_equals",
+    "field": "category",
+    "value": "healthcare",
+    "risk_level": "confirm",
+    "reason": "医疗健康类需人工确认"
+  }
+]

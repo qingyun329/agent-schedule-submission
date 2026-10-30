@@ -9,6 +9,7 @@ import sys
 
 from .agent import ReActAgent
 from .llm import DeepSeekLLM, MockLLM
+from .tools import TOOLS
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -48,7 +49,7 @@ def main(argv: list[str] | None = None) -> int:
         )
         llm = MockLLM()
 
-    agent = ReActAgent(llm=llm, tools={}, max_steps=args.max_steps)
+    agent = ReActAgent(llm=llm, tools=TOOLS, max_steps=args.max_steps)
     result = agent.run(args.prompt)
 
     if isinstance(result, dict):

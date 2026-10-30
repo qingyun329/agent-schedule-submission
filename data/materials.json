@@ -1,0 +1,33 @@
+[
+  {
+    "material_id": "M01",
+    "title": "新品开箱视频",
+    "owner": "小林",
+    "category": "video",
+    "duration_minutes": 3,
+    "content": "全新产品开箱，展示外观、配件和上手体验。"
+  },
+  {
+    "material_id": "M02",
+    "title": "未命名素材",
+    "duration_minutes": 5,
+    "content": "这是一条待补充信息的素材。"
+  },
+  {
+    "material_id": "M03",
+    "title": "这款产品100%治愈你的困扰",
+    "owner": "小周",
+    "category": "healthcare",
+    "duration_minutes": 2,
+    "content": "医疗健康类产品介绍。"
+  },
+  {
+    "material_id": "M04",
+    "title": "故障测试素材",
+    "owner": "小陈",
+    "category": "video",
+    "duration_minutes": 4,
+    "content": "用于验证草稿保存失败场景。",
+    "_force_save_failure": true
+  }
+]

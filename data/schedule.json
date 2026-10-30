@@ -1,0 +1,12 @@
+{
+  "timezone": "Asia/Shanghai",
+  "slot_minutes": 30,
+  "occupied": [
+    {
+      "slot": "18:00-18:30",
+      "material_id": "M00",
+      "title": "另一个素材已占",
+      "status": "scheduled"
+    }
+  ]
+}
